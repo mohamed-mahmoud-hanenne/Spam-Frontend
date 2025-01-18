@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Détecteur de Spam</h1>
+    <form (ngSubmit) = "checkspam()">
+        <label for="email">Entrer un email:</label>
+        <textarea 
+         id="email"
+         [(ngModel)] = "email"
+         name="email"
+         required
+         ></textarea>
+         <button type="submit">Vérifier</button>
+    </form>
+    <div *ngIf="result !==null">
+        <p><strong>Résultat : </strong> {{result}}</p>
+    </div>
+</div>
