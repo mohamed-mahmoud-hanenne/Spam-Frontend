@@ -22,7 +22,7 @@ Interface Angular permettant de **saisir le contenu d’un email** et d’obteni
 
 ## ⚙️ Installation
 
-git clone https://github.com/mohamed-mahmoud-hanenne/Spam-Frontend.git
+git clone https://github.com/mohamed-mahmoud-hanenne/Spam-Frontend.git 
 cd frontend
 npm install
 
